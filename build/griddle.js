@@ -1711,6 +1711,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	'use strict';
 
 	var React = __webpack_require__(2);
+	console.warn('React.version', React.version);
 	var _ = __webpack_require__(5);
 	var ColumnProperties = __webpack_require__(6);
 	var deep = __webpack_require__(14);
@@ -1767,6 +1768,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    render: function render() {
 	        var _this = this;
 
+	        console.warn('React.version2', React.version);
 	        this.verifyProps();
 	        var that = this;
 	        var columnStyles = null;

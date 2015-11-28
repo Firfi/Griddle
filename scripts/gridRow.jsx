@@ -55,6 +55,8 @@ var GridRow = React.createClass({
         }
     },
     render: function() {
+
+        console.warn('React.version2', React.version);
         this.verifyProps();
         var that = this;
         var columnStyles = null;
